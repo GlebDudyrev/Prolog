@@ -1,0 +1,33 @@
+
+patient_card(1001, "Ivanov Ivan", "st. Primernaya, d. 123, kv. 45", "+7 (123) 456-78-90", 45, "OOO Primernoe predpriyatie").
+patient_card(1002, "Petrova Elena", "st. Testovaya, d. 56, kv. 12", "+7 (987) 654-32-10", 32, "OOO AvtoMobilnye tekhnologii").
+patient_card(1003, "Smirnova Mariya", "st. Obrazcovaya, d. 78, kv. 3", "+7 (777) 111-22-33", 28, "AO Turisticheskoe agentstvo").
+patient_card(1004, "Kozlov Andrey", "ul. Testovskaya, d. 9, kv. 5", "+7 (333) 444-55-66", 50, "OOO Prodovolstvennyy magazin").
+patient_card(1005, "Zhukova Olga", "ul. Primernaya, d. 321, kv. 7", "+7 (555) 777-88-99", 38, "OOO Prodovolstvennyy magazin").
+patient_card(1006, "Sokolov Denis", "ul. Testerova, d. 15, kv. 22", "+7 (999) 888-77-66", 27, "OOO Proizvodstvennaya kompaniya").
+patient_card(1007, "Grigoryev Nikita", "ul. Proverochnaya, d. 44, kv. 9", "+7 (111) 222-33-44", 41, "OAO Stroitelnaya kompaniya").
+patient_card(1008, "Belova Anastasiya", "ul. Meditsinskaya, d. 7, kv. 14", "+7 (222) 333-44-55", 35, "OOO Inzhiniringovaya kompaniya").
+patient_card(1009, "Morozov Pavel", "ul. Primernaya, d. 56, kv. 8", "+7 (777) 999-00-11", 29, "OOO Prodovolstvennyy magazin").
+patient_card(1010, "Vasilieva Ekaterina", "ul. Provodnaya, d. 70, kv. 30", "+7 (123) 456-78-90", 47, "OOO Arkhitekturnoe byuro").
+
+doctor(101, "Ivanova Elena", "Ginekologiya").
+doctor(103, "Smirnov Aleksey", "Travmatologiya").
+doctor(105, "Grigoryev Pavel", "Khirurgiya").
+doctor(106, "Morozova Nataliya", "Otorinolaringologiya").
+doctor(110, "Novikov Denis", "Urologiya").
+doctor(112, "Sokolova Irina", "Neurologiya").
+doctor(115, "Kuznetsova Anna", "Terapevt").
+doctor(120, "Vasilev Anton", "Kardiologiya").
+doctor(125, "Petrov Sergey", "Oftalmologiya").
+doctor(130, "Antonova Marina", "Dermatologiya").
+
+reception(103, 1001, 29, "Perelom", "Rentgen", yes).
+reception(105, 1004, 3, "Appendicit", "Operatsiya", yes).
+reception(110, 1007, 7, "Diagnosis", "Treatment", no).
+reception(115, 1009, 15, "Cold", "Prescription", yes).
+reception(120, 1002, 10, "Heart examination", "EKG", yes).
+reception(125, 1005, 20, "Eye checkup", "Visual test", yes).
+reception(130, 1003, 5, "Skin rash", "Topical ointment", yes).
+reception(101, 1006, 8, "Consultation", "Advice", no).
+reception(112, 1008, 12, "Headache", "Neurological tests", no).
+reception(106, 1010, 4, "Ear pain", "ENT examination", yes).
